@@ -2,6 +2,7 @@
 import torch 
 from PIL import Image
 from torch import nn, save, load
+# Adam is optimizer
 from torch.optim import Adam
 from torch.utils.data import DataLoader
 from torchvision import datasets
